@@ -21,3 +21,20 @@ I am a novice front-end developer with high ambitions and a desire to develop. I
 - Git
 - Adobe Photoshop
 - BEM
+
+## **Code example**
+```
+function shortcut (string) {
+  let symbols = ['a', 'e', 'i', 'o', 'u'],
+      str_array = string.split(''),
+      result = [];
+  
+  for (let i = 0; i < str_array.length; i++) {
+      if (!symbols.includes(str_array[i])) {
+        result.push(str_array[i]);
+      }
+  } 
+  
+  return result.join('');
+}
+```
