@@ -38,3 +38,13 @@ function shortcut (string) {
   return result.join('');
 }
 ```
+
+## **Experience**
+I am self-taught, for a year I studied and practiced frontend under the guidance of a signor front end developer (my husband). During this time, I studied HTML, CSS, and JS at the level necessary for initial work.
+
+## **Education**
+* Irkutsk State Medical University
+    + Doctor of General Hygiene, Epidemiology
+
+## **English**
+A2
