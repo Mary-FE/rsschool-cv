@@ -72,6 +72,51 @@
                 </p>
             </div>
         </section>
+
+        <section class="skills">
+            <h2 id="skills" class="title">Skills</h2>
+            <ul class="list">
+                <li class="item">HTML</li>
+                <li class="item">CSS/LESS</li>
+                <li class="item">JavaScript (Basic)</li>
+                <li class="item">Adobe Photoshop</li>
+                <li class="item">BEM</li>
+                <li class="item">Git</li>
+                <li class="eng">English - A2</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2 id="experience" class="title">Experience</h2>
+            <div class="text">
+                I am self-taught, for a year I studied and practiced frontend under the guidance of
+                a signor front end developer (my husband). During this time, I studied HTML, CSS, 
+                and JS at the level necessary for initial work.
+            </div>
+        </section>
+
+        <section class="example-code">
+            <h2 id="code" class="title">Code example</h2>
+            <div class="description">
+                Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+            </div>
+                <pre class="line-numbers language-javascript" tabindex="0">
+                    <span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+<code class=" language-javascript"><span class="token keyword">function</span> <span class="token function">shortcut</span> (string) {
+    <span class="token keyword">let</span> symbols = [<span class="token string">'a'</span>, <span class="token string">'e'</span>, <span class="token string">'i'</span>, <span class="token string">'o'</span>, <span class="token string">'u'</span>],
+        str_array = string.<span class="token function">split</span>(<span class="token string">''</span>),
+        result = [];
+
+    <span class="token keyword">for</span> (<span class="token keyword">let</span> i = 0; i &lt; str_array.<span class="token function">length</span>; i++) {
+        <span class="token keyword">if</span> (!symbols.<span class="token function">includes</span>(str_array[i])) {             
+            result.<span class="token function">push</span>(str_array[i]);
+        }
+    } 
+                            
+    <span class="token keyword">return</span> result.<span class="token function">join</span>('');
+}</code>
+                </pre>
+        </section>
     </main>
 </body>
 </html>
