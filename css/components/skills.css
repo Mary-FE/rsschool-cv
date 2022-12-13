@@ -1,0 +1,33 @@
+/* 
+/* [ Skills ] + List
+/* ================================== */
+
+.skills {
+    padding-bottom: 20px
+}
+
+.skills .list {
+    display: flex;
+    grid-gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* 
+/* [ Skills ] + Item + Eng
+/* ================================== */
+
+.skills .item {
+    background-color: var(--color4);
+    border: 2px solid var(--color4);
+}
+
+.skills .item, 
+.skills .eng {
+    padding: 4px 15px;
+    border-radius: 4px;
+}
+
+.skills .eng {
+    border: 2px solid var(--color7);
+    background-color: var(--color7);
+}

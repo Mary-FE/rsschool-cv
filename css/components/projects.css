@@ -1,0 +1,8 @@
+.projects .resume {
+    color: var(--color4);
+}
+
+.projects .resume:hover {
+    color: var(--color6);
+    transition: var(--common-animation);
+}

@@ -1,0 +1,54 @@
+/* 
+/* [ Header ]: Block
+/* ================================== */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 10px;
+
+    background-color: var(--color1);
+    text-align: center;
+}
+
+/* 
+/* [ Header ]: Navigation
+/* ================================== */
+
+.header__list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.header__list-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+/* 
+/* [ Header ]: Icons
+/* ================================== */
+
+.header__icon::before {
+    color: var(--color3);
+}
+
+.header__icon:hover::before {
+    color: var(--color4);
+}
+
+.header__icon.icon__exp::before {
+    font-size: 18px;
+}
+
+.header__icon.icon__user::before,
+.header__icon.icon__code::before,
+.header__icon.icon__skills::before {
+    font-size: 24px;
+}
+
+.header__icon.icon__discord::before  {
+    font-size: 26px;
+}
