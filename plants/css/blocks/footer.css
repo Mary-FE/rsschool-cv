@@ -1,0 +1,52 @@
+/* 
+/* [ Footer ]
+/* ================================== */
+.footer {
+    color: var(--color-5);
+}
+
+.footer .box {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 52px 9px 52px 8px;
+}
+
+.footer__publication {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.footer a {
+    color: var(--color-5);
+    transition: var(--common-animation);
+}
+
+.footer a:hover {
+    color: var(--color-1);
+}
+
+.footer .rs-school {
+    margin-left: 18px;
+}
+
+/* 
+/* [ Footer ]: Social icons
+/* ================================== */
+.footer__social ul {
+    display: grid;
+    grid-gap: 27px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 26px;
+}
+
+.footer__social a::before {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+}
+
+.footer .icon:hover {
+    color: var(--color-1);
+}
