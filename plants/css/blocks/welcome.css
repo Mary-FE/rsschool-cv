@@ -1,0 +1,42 @@
+/* 
+/* [ Welcome ]
+/* ================================== */
+.welcome {
+    padding-bottom: 103px;
+    background-color: var(--bg-section);
+}
+
+.welcome .box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.welcome__image {
+    max-width: 448px;
+}
+
+/* 
+/* [ Welcome ]: Content
+/* ================================== */
+.welcome__content {
+    padding-top: 54px;
+    padding-left: 9%;
+}
+
+.welcome__title {
+    margin-bottom: 42px;
+}
+
+.welcome__title span {
+    color: var(--color-1);
+}
+
+.welcome__description {
+    font: 20px/35px var(--font-family__base);
+    max-width: 535px;
+    margin-bottom: 45px;
+}
+
+.welcome__content .button--primary {
+    padding: 10px 26px;
+}
