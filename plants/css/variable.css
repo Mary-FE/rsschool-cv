@@ -1,0 +1,34 @@
+:root {
+    --bg-section: #EDF2EC;
+    --main-text: #B1AEAD;
+    --links-nav: #010201;
+
+    --color-1: #499A18;
+    --color-2: #717171;
+    --color-3: #E06733;
+    --color-4: #636060;
+    --color-5: #000;
+    --color-6: #fff;
+    --color-7: #E3E1D5;
+    --color-8: #D9D9D9;
+    --color-9: #D6E7D2;
+
+    /* Layout */
+    --layout-width: 1221px;
+
+    /* Fonts */
+    --font-family__base: 'Inter', sans-serif; 
+    --font-family__extra: 'Inika', serif;
+    --font-family__icon: 'Plants Icons';
+
+    /* Icons */
+    --icon-arrow: '\e900';
+    --icon-instagram: '\e901';
+    --icon-facebook: '\e902';
+    --icon-twitter: '\e903';
+    --icon-pinterest: '\e904';
+
+    /* ================================= */
+    --common-animation: all ease .3s;
+    /* ================================= */
+}
