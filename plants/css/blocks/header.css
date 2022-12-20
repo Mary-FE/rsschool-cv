@@ -1,0 +1,50 @@
+/* 
+/* [ Header ]: Box
+/* ================================== */
+.header {
+    background-color: var(--bg-section);
+}
+
+.header .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.header__logo {
+    position: relative;
+    top: -14px;
+
+    color: var(--color-5);
+    font: 16px/21px var(--font-family__extra);
+}
+
+.header__logo span {
+    margin-left: -4px;
+}
+
+/* 
+/* [ Header ]: Navigation
+/* ================================== */
+.header__navigation {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 47px;
+}
+
+.header__navigation-item {
+    color: var(--links-nav);
+    font: 700 16px var(--font-family__extra);
+    transition: var(--common-animation);
+}
+
+.header__navigation-item._first {
+    color: var(--color-3);
+}
+
+.header__navigation-item:hover {
+    color: var(--color-3);
+}
