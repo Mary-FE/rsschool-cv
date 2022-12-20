@@ -1,0 +1,26 @@
+.icon { 
+    position: relative;
+    display: inline-block;
+}
+
+.icon:before { 
+    font-family: var(--font-family__icon); 
+}
+
+.icon__mail::before         { content: var(--icon-mail); }
+.icon__telegram::before     { content: var(--icon-telegram); }
+.icon__linkedin::before     { content: var(--icon-linkedin); }
+.icon__discord::before      { content: var(--icon-discord); }
+
+.icon__user::before         { content: var(--icon-user); }
+.icon__skills::before       { content: var(--icon-skills); }
+.icon__code::before         { content: var(--icon-code); }
+.icon__github::before       { content: var(--icon-github); }
+.icon__rsschool::before     { content: var(--icon-rsschool); }
+
+.icon__exp::before {
+    content: 'EXP';
+
+    font-family: var(--font-family__text);
+    letter-spacing: -2px;
+}
