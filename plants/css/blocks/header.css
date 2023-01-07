@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: space-between;
 
-    padding-top: 58px;
+    padding-top: 60px;
+    padding-right: 8px;
     padding-bottom: 58px;
 }
 
@@ -32,7 +33,7 @@
 .header__navigation {
     display: flex;
     align-items: center;
-    grid-column-gap: 47px;
+    grid-column-gap: 48px;
 }
 
 .header__navigation-item {

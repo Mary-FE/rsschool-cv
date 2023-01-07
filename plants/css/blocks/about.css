@@ -5,17 +5,17 @@
     display: flex;
     justify-content: space-between;
     padding-top: 90px;
-    padding-right: 5px;
-    padding-bottom: 107px;
+    padding-right: 0;
+    padding-bottom: 105px;
 }
 
 .about__content {
-    padding-top: 57px;
+    padding-top: 60px;
 }
 
 .about__second-title {
     width: 463px;
-    margin-bottom: 36px;
+    margin-bottom: 38px;
 }
 
 .about__second-title span {
@@ -28,6 +28,6 @@
 }
 
 .about img {
-    max-width: 448px;
-    margin-right: 8px;
+    max-width: 465px;
+    margin-top: -8px;
 }

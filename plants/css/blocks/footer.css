@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     
-    padding: 52px 9px 52px 8px;
+    padding: 53px 0;
 }
 
 .footer__publication {
@@ -28,7 +28,7 @@
 }
 
 .footer .rs-school {
-    margin-left: 18px;
+    margin-left: 12px;
 }
 
 /* 
