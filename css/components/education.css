@@ -1,0 +1,28 @@
+/* 
+/* [ Education ]
+/* ================================== */
+
+.education .study {
+    margin-bottom: 6px;
+    font: 600 14px var(--font-family__text);
+    color: var(--color4);
+}
+
+.education .specialization {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+/* 
+/* [ For Desktop ]
+/* ================================== */
+
+@media screen and (min-width: 1024px) {
+    .education .study {
+        font-size: 16px;
+    }
+
+    .education .specialization {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,45 @@
+:root {
+    /* =================================== */
+    /* Colors */
+    --color1: #1c1b1e;
+    --color2: #2c2c2c;
+    --color3: #868688;
+    --color4: #56a780;
+    --color5: #fff;
+    --color6: #e1e1e1;
+    --color7: #81388e;
+
+    --code-color1: #f7f4f3;
+    --code-color2: #e9e6e4;
+    --code-color3: #313130;
+    --code-color4: #07a;
+    --code-color5: #a67f59;
+    --code-color6: #dd4a68;
+    --code-color7: #690;
+    --code-color8: #905;
+    --code-color9: #708090;
+    
+    /* =================================== */
+    /* Font */
+    --font-family__title: 'Open Sans', sans-serif;
+    --font-family__text: 'Montserrat', sans-serif;
+    --font-family__icon: 'Icon Font';
+
+    /* =================================== */
+    /* Icon */
+    --icon-user: '\e900';
+    --icon-skills: '\e901';
+    --icon-experience: '\e909';
+    --icon-code: '\e904';
+
+    --icon-mail: '\e902';
+    --icon-telegram: '\e903';
+    --icon-linkedin: '\e907';
+    --icon-github: '\e905';
+    --icon-discord: '\e906';
+    --icon-rsschool: '\e90b';
+    
+    /* =================================== */
+    /* Animation */
+    --common-animation: all ease .3s;
+}
