@@ -1,12 +1,14 @@
 /* 
 /* [ About ]: Box
 /* ================================== */
+.about {
+    padding-top: 101px;
+    padding-bottom: 94px;
+}
+
 .about .box {
     display: flex;
     justify-content: space-between;
-    padding-top: 90px;
-    padding-right: 0;
-    padding-bottom: 105px;
 }
 
 .about__content {

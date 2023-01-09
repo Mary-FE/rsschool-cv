@@ -1,13 +1,9 @@
 /* 
 /* [ Service ]: Option
 /* ================================== */
-.service .box {
-    padding-top: 34px;
-    padding-right: 0;
-    padding-bottom: 117px;
-}
-
 .service {
+    padding-top: 40px;
+    padding-bottom: 118px;
     background-color: var(--bg-section);
 }
 
@@ -15,7 +11,7 @@
     display: grid;
     grid-column-gap: 65px;
     grid-template-columns: 1fr 2fr;
-    margin-bottom: 84px;
+    margin-bottom: 77px;
 }
 
 .service__second-title {

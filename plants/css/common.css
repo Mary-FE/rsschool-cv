@@ -72,6 +72,6 @@ body {
     max-width: var(--layout-width);
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
+    padding-right: 0;
     padding-left: 0;
 }

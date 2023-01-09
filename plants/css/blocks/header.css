@@ -10,14 +10,14 @@
     align-items: center;
     justify-content: space-between;
 
-    padding-top: 60px;
-    padding-right: 8px;
+    padding-top: 52px;
+    padding-right: 2px;
     padding-bottom: 58px;
 }
 
 .header__logo {
     position: relative;
-    top: -14px;
+    top: -2px;
 
     color: var(--color-5);
     font: 16px/21px var(--font-family__extra);
@@ -33,7 +33,7 @@
 .header__navigation {
     display: flex;
     align-items: center;
-    grid-column-gap: 48px;
+    grid-column-gap: 46px;
 }
 
 .header__navigation-item {
