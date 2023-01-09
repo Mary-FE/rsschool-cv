@@ -1,0 +1,15 @@
+.icon { 
+    position: relative;
+    display: inline-block;
+    color: var(--color-5);
+}
+
+.icon:before { 
+    font-family: var(--font-family__icon); 
+}
+
+.icon__arrow::before { content: var(--icon-arrow); }
+.icon__instagram::before { content: var(--icon-instagram); }
+.icon__facebook::before { content: var(--icon-facebook); }
+.icon__twitter::before   { content: var(--icon-twitter); }
+.icon__pinterest::before   { content: var(--icon-pinterest); }

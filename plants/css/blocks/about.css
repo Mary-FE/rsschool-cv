@@ -1,0 +1,35 @@
+/* 
+/* [ About ]: Box
+/* ================================== */
+.about {
+    padding-top: 101px;
+    padding-bottom: 94px;
+}
+
+.about .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__content {
+    padding-top: 60px;
+}
+
+.about__second-title {
+    width: 463px;
+    margin-bottom: 38px;
+}
+
+.about__second-title span {
+    color: var(--color-3);
+}
+
+.about__description {
+    max-width: 605px;
+    font: 400 20px/30px var(--font-family__base);
+}
+
+.about img {
+    max-width: 465px;
+    margin-top: -8px;
+}
