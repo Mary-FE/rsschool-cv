@@ -3,7 +3,7 @@
 /* ================================== */
 .prices {
     padding-top: 38px;
-    padding-bottom: 7px;
+    padding-bottom: 116px;
 }
 
 .prices .box {
@@ -87,9 +87,10 @@
 }
 
 .prices .button--secondary {
+    margin-bottom: 38px;
     padding: 12px 32px;
 }
 
 .prices img {
-    max-width: 290px;
+    max-width: 158px;
 }
