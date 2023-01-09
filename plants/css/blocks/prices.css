@@ -1,13 +1,14 @@
 /* 
 /* [ Prices ]
 /* ================================== */
+.prices {
+    padding-top: 38px;
+    padding-bottom: 7px;
+}
+
 .prices .box {
     display: flex;
     justify-content: space-between;
-    
-    padding-top: 41px;
-    padding-right: 0;
-    padding-bottom: 16px;
 }
 
 /* 
@@ -76,7 +77,6 @@
 
 .prices__content .prices__second-title {
     max-width: 482px;
-    margin-top: -4px;
     margin-bottom: 39px;
     font: 700 40px/50px var(--font-family__base);
     color: var(--color-5);

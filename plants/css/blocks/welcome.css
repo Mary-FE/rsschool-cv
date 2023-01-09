@@ -2,7 +2,8 @@
 /* [ Welcome ]
 /* ================================== */
 .welcome {
-    padding-bottom: 110px;
+    padding-top: 52px;
+    padding-bottom: 66px;
     background-color: var(--bg-section);
 }
 
@@ -19,7 +20,7 @@
 /* [ Welcome ]: Content
 /* ================================== */
 .welcome__content {
-    padding-top: 54px;
+    padding-top: 44px;
     padding-left: 10%;
 }
 
