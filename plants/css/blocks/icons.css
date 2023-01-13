@@ -8,6 +8,7 @@
     font-family: var(--font-family__icon); 
 }
 
+.icon__menu::before { content: var(--icon-menu); }
 .icon__arrow::before { content: var(--icon-arrow); }
 .icon__instagram::before { content: var(--icon-instagram); }
 .icon__facebook::before { content: var(--icon-facebook); }

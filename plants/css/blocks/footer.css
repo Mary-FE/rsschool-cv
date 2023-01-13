@@ -1,21 +1,23 @@
 /* 
-/* [ Footer ]
+/* [ Footer ]: Layout
 /* ================================== */
 .footer {
+    padding-top: 20px;
+    padding-bottom: 17px;
+
     color: var(--color-5);
+    text-align: center;
 }
 
 .footer .box {
-    display: flex;
-    justify-content: space-between;
-    
-    padding: 53px 0;
+    font: 400 20px/24px var(--font-family__base);
 }
 
 .footer__publication {
     display: flex;
-    align-items: center;
-    grid-gap: 20px;
+    grid-gap: 22px;
+    justify-content: center;
+    margin-bottom: 17px;
 }
 
 .footer a {
@@ -28,17 +30,61 @@
 }
 
 .footer .rs-school {
-    margin-left: 12px;
+    display: block;
+    margin-bottom: 17px;
+}
+
+/* Tablet+ */
+@media screen and (min-width: 768px) {
+    .footer {
+        padding-top: 27px;
+    }
+
+    .footer .box {
+        position: relative;
+        left: -3px;
+    }
+
+    .footer__publication {
+        margin-bottom: 16px;
+    }
+
+    .footer .rs-school {
+        margin-bottom: 30px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+    
+    .footer .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__publication,
+    .footer .rs-school {
+        margin-bottom: 0;
+    }
+
+    .footer .rs-school { 
+        margin-left: 15px;
+    }
 }
 
 /* 
 /* [ Footer ]: Social icons
 /* ================================== */
 .footer__social ul {
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-gap: 27px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 26px;
+    font-size: 27px;
 }
 
 .footer__social a::before {

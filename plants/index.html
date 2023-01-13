@@ -17,8 +17,8 @@
     <title>Plants</title>
 </head>
 <body>
-     <!-- This is header -->
-     <header class="header">
+    <!-- This is header -->
+    <header class="header">
         <div class="box">
             <a href="/" class="header__logo">
                 <img src="img/logo.jpg" alt="logo">
@@ -26,6 +26,13 @@
             </a>
 
             <nav>
+                <a href="#" class="header__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
                 <ul class="header__navigation">
                     <li>
                         <a class="header__navigation-item _first" href="#home">Home</a>
@@ -63,8 +70,8 @@
             </div>
         </section>
 
-         <!-- This is "about" -->
-         <section class="about" id="about">
+        <!-- This is "about" -->
+        <section class="about" id="about">
             <div class="box">
                 <div class="about__content">
                     <h2 class="about__second-title">We are <span>professional experienced</span> gardeners</h2>
@@ -86,63 +93,93 @@
                 <div class="service__option">
                     <h2 class="service__second-title">Service and our projects</h2>
                     <div class="service__types">
-                        <button class="button--secondary">Gargens</button>
+                        <button class="button--secondary">Gardens</button>
                         <button class="button--secondary">Lawn</button>
                         <button class="button--secondary">Planting</button>
                     </div>
                 </div>
                 <div class="service__projects">
                     <div class="service__info">
-                        <img src="img/service__desktop__1.jpg" alt="woman in the garden">
-                        <div>
+                        <picture>
+                            <source srcset="img/service__mobile__1.jpg" media="(max-width: 1023px)">
+                            <img src="img/service__desktop__1.jpg" alt="woman in the garden" loading="lazy">
+                        </picture>
+                        <div class="service__box">
                             <h3 class="service__third-title">Garden care</h3>
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
                     <div class="service__info">
-                        <img src="img/service__desktop__2.jpg" alt="a lemon">
-                        <h3 class="service__third-title">Planting</h3>
-                        <div class="service__description">Lorem Ipsum has been the industry</div>
+                        <picture>
+                            <source srcset="img/service__mobile__2.jpg" media="(max-width: 1023px)">
+                            <img src="img/service__desktop__2.jpg" alt="a lemon" loading="lazy">
+                        </picture>
+                        <div class="service__box">
+                            <h3 class="service__third-title">Planting</h3>
+                            <div class="service__description">Lorem Ipsum has been the industry</div>
+                        </div>
                     </div>
                     <div class="service__info">
-                        <img src="img/service__desktop__3.jpg" alt="spraying of leaves">
-                        <h3 class="service__third-title">Lawn care</h3>
-                        <div class="service__description">Lorem Ipsum has been the industry</div>
+                        <picture>
+                            <source srcset="img/service__mobile__3.jpg" media="(max-width: 1023px)">
+                            <img src="img/service__desktop__3.jpg" alt="spraying of leaves" loading="lazy">
+                        </picture>
+                        <div class="service__box">
+                            <h3 class="service__third-title">Lawn care</h3>
+                            <div class="service__description">Lorem Ipsum has been the industry</div>
+                        </div>
                     </div>
                     <div class="service__info">
-                        <img src="img/service__desktop__4.jpg" alt="woman with flowers">
-                        <h3 class="service__third-title">Planting</h3>
-                        <div class="service__description">Lorem Ipsum has been the industry</div>
+                        <picture>
+                            <source srcset="img/service__mobile__4.jpg" media="(max-width: 1023px)">
+                            <img src="img/service__desktop__4.jpg" alt="woman with flowers" loading="lazy">
+                        </picture>
+                        <div class="service__box">
+                            <h3 class="service__third-title">Planting</h3>
+                            <div class="service__description">Lorem Ipsum has been the industry</div>
+                        </div>
                     </div>
                     <div class="service__info">
-                        <img src="img/service__desktop__5.jpg" alt="potted plants">
-                        <h3 class="service__third-title">Garden care</h3>
-                        <div class="service__description">Lorem Ipsum has been the industry</div>
+                        <picture>
+                            <source srcset="img/service__mobile__5.jpg" media="(max-width: 1023px)">
+                            <img src="img/service__desktop__5.jpg" alt="potted plants" loading="lazy">
+                        </picture>
+                        <div class="service__box">
+                            <h3 class="service__third-title">Garden care</h3>
+                            <div class="service__description">Lorem Ipsum has been the industry</div>
+                        </div>
                     </div>
                     <div class="service__info">
-                        <img src="img/service__desktop__6.jpg" alt="cactus in a pot">
-                        <h3 class="service__third-title">Planting</h3>
-                        <div class="service__description">Lorem Ipsum has been the industry</div>
+                        <picture>
+                            <source srcset="img/service__mobile__6.jpg" media="(max-width: 1023px)">
+                            <img src="img/service__desktop__6.jpg" alt="cactus in a pot" loading="lazy">
+                        </picture>
+                        <div class="service__box">
+                            <h3 class="service__third-title">Planting</h3>
+                            <div class="service__description">Lorem Ipsum has been the industry</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-          <!-- This is "prices" -->
-          <section class="prices" id="price">
+        <!-- This is "prices" -->
+        <section class="prices" id="price">
             <div class="box">
-                <div class="prices__cost">
-                    <h2 class="prices__second-title">Prices</h2>
-                    <div class="prices__options">
-                        <div class="item icon icon__arrow">Basics</div>
-                        <div class="item icon icon__arrow">Standard</div>
-                        <div class="item icon icon__arrow">Pro care</div>
+                <h2 class="prices__second-title">Prices</h2>
+                <div class="prices__wrapper">
+                    <div class="prices__cost">
+                        <div class="prices__options">
+                            <div class="item icon icon__arrow">Basics</div>
+                            <div class="item icon icon__arrow">Standard</div>
+                            <div class="item icon icon__arrow">Pro care</div>
+                        </div>
                     </div>
-                </div>
-                <div class="prices__content">
-                    <h2 class="prices__second-title">Our best <span>gardeners</span> are ready to help you</h2>
-                    <button class="button--secondary">Contact us</button>
-            <img src="img/prices__desktop__leafs.jpg" alt="leafs">
+                    <div class="prices__content">
+                        <h2 class="prices__sub-title">Our best <span>gardeners</span> are ready to help you</h2>
+                        <button class="button--secondary">Contact us</button>
+                        <img src="img/prices__desktop__leafs.jpg" alt="leafs" loading="lazy">
+                    </div>
                 </div>
             </div>
         </section>
@@ -152,8 +189,11 @@
             <div class="box">
                 <h2 class="contacts__second-title">Contact us</h2>
                 <div class="contacts__content">
-                    <img src="img/contacts__desktop__woman.jpg" alt="woman with flowers">
                     <div class="contacts__item icon icon__arrow">City</div>
+                    <picture>
+                        <source srcset="img/contacts__mobile__woman.jpg" media="(max-width: 767px)">
+                        <img src="img/contacts__desktop__woman.jpg" alt="woman with flowers" loading="lazy">
+                    </picture>
                 </div>
             </div>
         </section>
