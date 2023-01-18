@@ -1,8 +1,4 @@
 :root {
-    --bg-section: #EDF2EC;
-    --main-text: #B1AEAD;
-    --links-nav: #010201;
-
     --color-1: #499A18;
     --color-2: #717171;
     --color-3: #E06733;
@@ -12,9 +8,11 @@
     --color-7: #E3E1D5;
     --color-8: #D9D9D9;
     --color-9: #D6E7D2;
+    --color-10: #EDF2EC; /* Background-color in the sections  */
+    --color-11: rgba(0, 0, 0, 0.25);
 
     /* Layout */
-    --layout-width: 1221px;
+    --layout-width: 1310px;
 
     /* Fonts */
     --font-family__base: 'Inter', sans-serif; 
@@ -22,6 +20,7 @@
     --font-family__icon: 'Plants Icons';
 
     /* Icons */
+    --icon-menu: '\e905';
     --icon-arrow: '\e900';
     --icon-instagram: '\e901';
     --icon-facebook: '\e902';
