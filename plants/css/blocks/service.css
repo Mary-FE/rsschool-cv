@@ -104,7 +104,7 @@
 }
 
 .service__info {
-    max-width: 280px;
+    max-width: 281px;
     border: 1px solid var(--color-7);
     border-radius: 20px;
 }
@@ -125,7 +125,7 @@
 }
 
 .service__third-title {
-    margin-bottom: 12px;
+    margin-bottom: 11px;
     color: var(--color-3);
 }
 
@@ -137,7 +137,7 @@
 /* Tablet+ */
 @media screen and (min-width: 768px) {
     .service__box {
-        padding: 0 36px 15px;
+        padding: 0 36px 17px;
     }
 
     .service__info {
