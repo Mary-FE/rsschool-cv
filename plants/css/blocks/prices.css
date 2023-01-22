@@ -2,7 +2,7 @@
 /* [ Prices ]
 /* ================================== */
 .prices {
-    padding-top: 25px;
+    padding-top: 26px;
     padding-bottom: 41px;
 }
 
@@ -20,7 +20,8 @@
 /* Tablet+ */
 @media screen and (min-width: 768px) {
     .prices {
-        padding-bottom: 86px;
+        padding-top: 23px;
+        padding-bottom: 85px;
     }
 
     .prices__second-title {
