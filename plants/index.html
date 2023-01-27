@@ -214,7 +214,38 @@
             <div class="box">
                 <h2 class="contacts__second-title">Contact us</h2>
                 <div class="contacts__content">
-                    <div class="contacts__item icon icon__arrow">City</div>
+                    <div class="contacts__options">
+                        <div class="custom-select icon icon__arrow" data-select>
+                            <div class="active-option" data-label>City</div>
+                            <div class="select-options" data-options>
+                                <div class="item" data-select-item="0">Canandaigua, NY</div>
+                                <div class="item" data-select-item="1">New York City</div>
+                                <div class="item" data-select-item="2">Yonkers, NY</div>
+                                <div class="item" data-select-item="3">Sherrill, NY</div>
+                            </div>
+                        </div>
+
+                        <div class="select-information" data-select-information>
+                            <div class="box-info">
+                                <span class="type">City:</span>
+                                <span data-select="city">Canandaigua, NY</span>
+                            </div>
+
+                            <div class="box-info">
+                                <span class="type">Phone:</span>
+                                <span data-select="phone">+1 585 393 0001</span>
+                            </div>
+
+                            <div class="box-info">
+                                <span class="type">Office address:</span>
+                                <span data-select="address">151 Charlotte Street</span>
+                            </div>
+
+                            <div class="box-action">
+                                <a href="tel:+1 585 393 0001" data-select="call">Call us</a>
+                            </div>
+                        </div>
+                    </div>
                     <picture>
                         <source srcset="img/contacts__mobile__woman.jpg" media="(max-width: 767px)">
                         <img src="img/contacts__desktop__woman.jpg" alt="woman with flowers" loading="lazy">
@@ -250,5 +281,6 @@
     <script src="js/toggle-menu.js"></script>
     <script src="js/change-service.js"></script>
     <script src="js/accordion.js"></script>
+    <script src="js/custom-select.js"></script>
 </body>
 </html>
