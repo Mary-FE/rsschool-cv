@@ -96,14 +96,14 @@
             <div class="box">
                 <div class="service__option">
                     <h2 class="service__second-title">Service and our projects</h2>
-                    <div class="service__types">
-                        <button class="button--secondary">Gardens</button>
-                        <button class="button--secondary">Lawn</button>
-                        <button class="button--secondary">Planting</button>
+                    <div class="service__types" data-heading>
+                        <button class="button--secondary" data-type="garden">Gardens</button>
+                        <button class="button--secondary" data-type="lawn">Lawn</button>
+                        <button class="button--secondary" data-type="planting">Planting</button>
                     </div>
                 </div>
-                <div class="service__projects">
-                    <div class="service__info">
+                <div class="service__projects" data-content>
+                    <div class="service__info" data-type="garden">
                         <picture>
                             <source srcset="img/service__mobile__1.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__1.jpg" alt="woman in the garden" loading="lazy">
@@ -113,7 +113,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="planting">
                         <picture>
                             <source srcset="img/service__mobile__2.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__2.jpg" alt="a lemon" loading="lazy">
@@ -123,7 +123,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="lawn">
                         <picture>
                             <source srcset="img/service__mobile__3.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__3.jpg" alt="spraying of leaves" loading="lazy">
@@ -133,7 +133,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="planting">
                         <picture>
                             <source srcset="img/service__mobile__4.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__4.jpg" alt="woman with flowers" loading="lazy">
@@ -143,7 +143,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="garden">
                         <picture>
                             <source srcset="img/service__mobile__5.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__5.jpg" alt="potted plants" loading="lazy">
@@ -153,7 +153,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="planting">
                         <picture>
                             <source srcset="img/service__mobile__6.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__6.jpg" alt="cactus in a pot" loading="lazy">
@@ -227,5 +227,6 @@
     <!-- Try to fix 404 page after deploy -->
     <script src="js/index.js"></script>
     <script src="js/toggle-menu.js"></script>
+    <script src="js/change-service.js"></script>
 </body>
 </html>
