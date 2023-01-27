@@ -173,10 +173,31 @@
                 <h2 class="prices__second-title">Prices</h2>
                 <div class="prices__wrapper">
                     <div class="prices__cost">
-                        <div class="prices__options">
-                            <div class="item icon icon__arrow">Basics</div>
-                            <div class="item icon icon__arrow">Standard</div>
-                            <div class="item icon icon__arrow">Pro care</div>
+                        <div class="prices__options" data-accordion>
+                            <div class="accordion">
+                                <div class="item icon icon__arrow" data-accordion-header>Basics</div>
+                                <div data-accordion-content>
+                                    <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <span class="prices__rate"><span class="value"><small>$</small>15</span> / per hour</span>
+                                    <a href="#contact" class="link">Order</a>
+                                </div>
+                            </div>
+                            <div class="accordion">
+                                <div class="item icon icon__arrow" data-accordion-header>Standard</div>
+                                <div data-accordion-content>
+                                    <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <span class="prices__rate"><span class="value"><small>$</small>25</span> / per hour</span>
+                                    <a href="#contact" class="link">Order</a> 
+                                </div>  
+                            </div>
+                            <div class="accordion">
+                                <div class="item icon icon__arrow" data-accordion-header>Pro care</div>
+                                <div data-accordion-content>
+                                    <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <span class="prices__rate"><span class="value"><small>$</small>35</span> / per hour</span>
+                                    <a href="#contact" class="link">Order</a>
+                                </div>
+                            </div>       
                         </div>
                     </div>
                     <div class="prices__content">
@@ -228,5 +249,6 @@
     <script src="js/index.js"></script>
     <script src="js/toggle-menu.js"></script>
     <script src="js/change-service.js"></script>
+    <script src="js/accordion.js"></script>
 </body>
 </html>
