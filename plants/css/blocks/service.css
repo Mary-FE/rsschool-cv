@@ -109,6 +109,10 @@
     border-radius: 20px;
 }
 
+.service__info.blur {
+    filter: blur(2px);
+}
+
 .service__box {
     padding: 3px 36px 15px;
     text-align: center;
