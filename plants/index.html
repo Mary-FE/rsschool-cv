@@ -96,14 +96,14 @@
             <div class="box">
                 <div class="service__option">
                     <h2 class="service__second-title">Service and our projects</h2>
-                    <div class="service__types">
-                        <button class="button--secondary">Gardens</button>
-                        <button class="button--secondary">Lawn</button>
-                        <button class="button--secondary">Planting</button>
+                    <div class="service__types" data-heading>
+                        <button class="button--secondary" data-type="garden">Gardens</button>
+                        <button class="button--secondary" data-type="lawn">Lawn</button>
+                        <button class="button--secondary" data-type="planting">Planting</button>
                     </div>
                 </div>
-                <div class="service__projects">
-                    <div class="service__info">
+                <div class="service__projects" data-content>
+                    <div class="service__info" data-type="garden">
                         <picture>
                             <source srcset="img/service__mobile__1.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__1.jpg" alt="woman in the garden" loading="lazy">
@@ -113,7 +113,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="planting">
                         <picture>
                             <source srcset="img/service__mobile__2.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__2.jpg" alt="a lemon" loading="lazy">
@@ -123,7 +123,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="lawn">
                         <picture>
                             <source srcset="img/service__mobile__3.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__3.jpg" alt="spraying of leaves" loading="lazy">
@@ -133,7 +133,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="planting">
                         <picture>
                             <source srcset="img/service__mobile__4.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__4.jpg" alt="woman with flowers" loading="lazy">
@@ -143,7 +143,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="garden">
                         <picture>
                             <source srcset="img/service__mobile__5.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__5.jpg" alt="potted plants" loading="lazy">
@@ -153,7 +153,7 @@
                             <div class="service__description">Lorem Ipsum has been the industry</div>
                         </div>
                     </div>
-                    <div class="service__info">
+                    <div class="service__info" data-type="planting">
                         <picture>
                             <source srcset="img/service__mobile__6.jpg" media="(max-width: 1023px)">
                             <img src="img/service__desktop__6.jpg" alt="cactus in a pot" loading="lazy">
@@ -173,10 +173,31 @@
                 <h2 class="prices__second-title">Prices</h2>
                 <div class="prices__wrapper">
                     <div class="prices__cost">
-                        <div class="prices__options">
-                            <div class="item icon icon__arrow">Basics</div>
-                            <div class="item icon icon__arrow">Standard</div>
-                            <div class="item icon icon__arrow">Pro care</div>
+                        <div class="prices__options" data-accordion>
+                            <div class="accordion">
+                                <div class="item icon icon__arrow" data-accordion-header>Basics</div>
+                                <div data-accordion-content>
+                                    <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <span class="prices__rate"><span class="value"><small>$</small>15</span> / per hour</span>
+                                    <a href="#contact" class="link">Order</a>
+                                </div>
+                            </div>
+                            <div class="accordion">
+                                <div class="item icon icon__arrow" data-accordion-header>Standard</div>
+                                <div data-accordion-content>
+                                    <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <span class="prices__rate"><span class="value"><small>$</small>25</span> / per hour</span>
+                                    <a href="#contact" class="link">Order</a> 
+                                </div>  
+                            </div>
+                            <div class="accordion">
+                                <div class="item icon icon__arrow" data-accordion-header>Pro care</div>
+                                <div data-accordion-content>
+                                    <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <span class="prices__rate"><span class="value"><small>$</small>35</span> / per hour</span>
+                                    <a href="#contact" class="link">Order</a>
+                                </div>
+                            </div>       
                         </div>
                     </div>
                     <div class="prices__content">
@@ -193,7 +214,38 @@
             <div class="box">
                 <h2 class="contacts__second-title">Contact us</h2>
                 <div class="contacts__content">
-                    <div class="contacts__item icon icon__arrow">City</div>
+                    <div class="contacts__options">
+                        <div class="custom-select icon icon__arrow" data-select>
+                            <div class="active-option" data-label>City</div>
+                            <div class="select-options" data-options>
+                                <div class="item" data-select-item="0">Canandaigua, NY</div>
+                                <div class="item" data-select-item="1">New York City</div>
+                                <div class="item" data-select-item="2">Yonkers, NY</div>
+                                <div class="item" data-select-item="3">Sherrill, NY</div>
+                            </div>
+                        </div>
+
+                        <div class="select-information" data-select-information>
+                            <div class="box-info">
+                                <span class="type">City:</span>
+                                <span data-select="city">Canandaigua, NY</span>
+                            </div>
+
+                            <div class="box-info">
+                                <span class="type">Phone:</span>
+                                <span data-select="phone">+1 585 393 0001</span>
+                            </div>
+
+                            <div class="box-info">
+                                <span class="type">Office address:</span>
+                                <span data-select="address">151 Charlotte Street</span>
+                            </div>
+
+                            <div class="box-action">
+                                <a href="tel:+1 585 393 0001" data-select="call">Call us</a>
+                            </div>
+                        </div>
+                    </div>
                     <picture>
                         <source srcset="img/contacts__mobile__woman.jpg" media="(max-width: 767px)">
                         <img src="img/contacts__desktop__woman.jpg" alt="woman with flowers" loading="lazy">
@@ -227,5 +279,8 @@
     <!-- Try to fix 404 page after deploy -->
     <script src="js/index.js"></script>
     <script src="js/toggle-menu.js"></script>
+    <script src="js/change-service.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/custom-select.js"></script>
 </body>
 </html>

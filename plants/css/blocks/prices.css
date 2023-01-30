@@ -82,6 +82,9 @@
 
     background: var(--color-10);
     border-radius: 20px;
+
+    width: 100%;
+    cursor: pointer;
 }
 
 .prices__options .item::before {
@@ -219,4 +222,66 @@
     .prices__options .item {
         padding: 20px 45px 15px 38px;
     }
+}
+
+
+/* 
+/* Accordion */
+/* ================================= */
+[data-accordion-content] {
+    display: none;
+    padding: 0 28px 15px;
+    background-color: var(--color-9);
+    border-radius: 0 0 20px 20px;
+}
+
+[data-accordion-header].active {
+    background-color: var(--color-9);
+    border-radius: 20px 20px 0 0;
+}
+
+[data-accordion-header].active ~ [data-accordion-content] {
+    display: block;
+}
+
+.prices__description {
+    margin-bottom: 10px;
+    padding-top: 6px;
+    font: 300 10px var(--font-family__base);
+    color: var(--color-2);
+    border-top: 1px solid var(--color-12);
+}
+
+.prices__rate {
+    display: block;
+    margin-bottom: 15px;
+    font: 12px var(--font-family__base);
+}
+
+.prices .value {
+    color: var(--color-3);
+    font: 700 16px var(--font-family__base);
+}
+
+.prices small {
+    font-size: 12px;
+}
+
+.link {
+    padding: 3px 20px;
+    font: 700 14px var(--font-family__base);
+    color: var(--color-2);
+    background-color: var(--color-6);
+    border-radius: 10px;
+    border: none;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.prices__options .item.active::before {
+    background-color: var(--color-12);
+    color: var(--color-6);
+    transform: rotate(180deg);
 }
