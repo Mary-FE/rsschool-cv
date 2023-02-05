@@ -1,0 +1,64 @@
+/* 
+/* [ Footer ] + Icon
+/* ================================== */
+
+.footer {
+    text-align: center;
+}
+
+.footer .icon::before {
+    color: var(--color3);
+    font-size: 24px;
+    transition: var(--common-animation);
+}
+
+.footer .icon:hover,
+.footer .icon:hover::before {
+    color: var(--color4);
+}
+
+/* 
+/* [ Footer ] : Links
+/* ================================== */
+.footer .links {
+    display: flex;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.footer a {
+    color: var(--color5);
+}
+
+.footer .author {
+    padding: 8px;
+}
+
+/* 
+/* [ For Tablet ] 
+/* ================================== */
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 12px;
+    }
+
+    .footer .links {
+        margin-top: 0;
+    }
+}
+
+/* 
+/* [ For Desktop ] 
+/* ================================== */
+
+@media screen and (min-width: 1024px) {
+    .footer .links {  
+        order: 1;
+    }
+}

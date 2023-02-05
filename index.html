@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet preload" href="css/variable.css" as="style">
+    <link rel="stylesheet preload" href="css/font.css" as="style">
+    <link rel="stylesheet preload" href="css/lib/my_reset.css" as="style">
+    <link rel="stylesheet preload" href="css/lib/common.css" as="style">
+    <link rel="stylesheet preload" href="css/components.css" as="style">
+    <link rel="icon" href="img/favicon.jpg">
+    <title>rsschool-cv</title>
+</head>
+<body>
+    <!-- This is header -->
+    <header class="header">
+        <nav>
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="#about-me" class="header__icon icon icon__user" title="About me"></a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#skills" class="header__icon icon icon__skills" title="Skills"></a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#experience" class="header__icon icon icon__exp" title="Experience"></a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#code" class="header__icon icon icon__code" title="Code example"></a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="header__list header__list--social">
+            <li class="header__list-item">
+                <a href="https://discordapp.com/users/1028588574746099743/" class="header__icon icon icon__discord" target="_blank"></a>
+            </li>
+        </ul>
+    </header>
+
+     <!-- This is main -->
+     <main class="information">
+        <section class="banner">
+            <img src="img/avatar.jpg" alt="Portrait">
+            <h1 class="main-title">Maria Zhirova</h1>
+            <p class="subtitle">Junior Frontend Developer</p>
+            <p class="location">Minsk, Belarus</p>
+            <ul class="social">
+                <li>
+                    <a href="mailto:masha.zhirova@yandex.ru" class="icon icon__mail" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/Mary26_5" class="icon icon__telegram" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/maria-zhirova" class="icon icon__linkedin" target="_blank"></a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="about-me">
+            <h2 id="about-me" class="title">About me</h2>
+            <div class="text">
+                <p>
+                    I am a novice front-end developer with high ambitions and a desire to develop. 
+                    I am a non-confrontational person, I have a positive attitude to constructive criticism, I have
+                    a broad outlook, I am inquisitive, attentive to small things.
+                </p>
+                <p>
+                    I want to gain experience working in a team, gain new knowledge at RS School,
+                    find interesting projects where I could improve my skills, learn something new
+                    and put it into practice. And also to expand the circle of new acquaintances.
+                </p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 id="skills" class="title">Skills</h2>
+            <ul class="list">
+                <li class="item">HTML</li>
+                <li class="item">CSS/LESS</li>
+                <li class="item">JavaScript (Basic)</li>
+                <li class="item">Adobe Photoshop</li>
+                <li class="item">BEM</li>
+                <li class="item">Git</li>
+                <li class="eng">English - A2</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2 id="experience" class="title">Experience</h2>
+            <div class="text">
+                I am self-taught, for a year I studied and practiced frontend under the guidance of
+                a signor front end developer (my husband). During this time, I studied HTML, CSS, 
+                and JS at the level necessary for initial work.
+            </div>
+        </section>
+
+        <section class="example-code">
+            <h2 id="code" class="title">Code example</h2>
+            <div class="description">
+                Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+            </div>
+                <pre class="line-numbers language-javascript" tabindex="0">
+                    <span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span>
+<code class=" language-javascript"><span class="token keyword">function</span> <span class="token function">shortcut</span> (string) {
+    <span class="token keyword">let</span> symbols = [<span class="token string">'a'</span>, <span class="token string">'e'</span>, <span class="token string">'i'</span>, <span class="token string">'o'</span>, <span class="token string">'u'</span>],
+        str_array = string.<span class="token function">split</span>(<span class="token string">''</span>),
+        result = [];
+
+    <span class="token keyword">for</span> (<span class="token keyword">let</span> i = 0; i &lt; str_array.<span class="token function">length</span>; i++) {
+        <span class="token keyword">if</span> (!symbols.<span class="token function">includes</span>(str_array[i])) {             
+            result.<span class="token function">push</span>(str_array[i]);
+        }
+    } 
+                            
+    <span class="token keyword">return</span> result.<span class="token function">join</span>('');
+}</code>
+                </pre>
+        </section>
+
+        <section class="education">
+            <h2 class="title">Education</h2>
+            <div>
+                <div class="study">Irkutsk State Medical University</div>
+                <p class="specialization"><i>Doctor of General Hygiene, Epidemiology</i></p>
+                <div class="years">2015-2021</div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 class="title">My projects</h2>
+            <a class="resume" href="https://mary-fe.github.io/rsschool-cv/cv" target="_blank">RSschool-CV</a>
+        </section>
+
+         <!-- This is footer -->
+         <footer class="footer">
+            <div class="links">
+                <a href="https://github.com/Mary-FE/" class="header__icon icon icon__github" target="_blank"></a>
+                <a href="https://rs.school/js-stage0/" class="icon icon__rsschool" target="_blank"></a>
+            </div>
+            <p class="author">© 2022 by Maria Zhirova</p>
+        </footer>
+    </main>
+</body>
+</html>

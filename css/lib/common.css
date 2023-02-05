@@ -1,0 +1,38 @@
+body {
+    font: 400 13px/1.4 var(--font-family__text);
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* 
+/* [ Titles ] 
+/* ================================== */
+
+h1 {
+    font: 600 35px var(--font-family__title);
+}
+
+h2 {
+    margin: 15px 0;
+    font: 500 35px var(--font-family__title);
+}
+
+.title {
+    color: var(--color5);
+}
+
+/* 
+/* [ Section ] 
+/* ================================== */
+
+section {
+    padding-bottom: 20px;
+}
+
+section:not(.banner):not(:last-child) {
+    border-bottom: 2px solid var(--color3);
+}

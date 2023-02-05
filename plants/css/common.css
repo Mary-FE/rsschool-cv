@@ -1,0 +1,91 @@
+/* 
+/* [ Common ]: Button / link
+/* ================================== */
+.button--primary {
+    padding: 12px 27px;
+
+    border-radius: 10px;
+    border: 2px solid var(--color-3);
+    background-color: transparent;
+    
+    color: var(--color-5);
+    font: 400 16px/20px var(--font-family__base);
+    text-transform: uppercase;
+
+    transition: var(--common-animation);
+    cursor: pointer;
+}
+
+.button--primary:hover {
+    color: var(--color-6);
+    background-color: var(--color-3);
+}
+
+.button--secondary {
+    padding: 12px 40px;
+
+    border-radius: 5px;
+    border: 1px solid var(--color-3);
+    background-color: transparent;
+    
+    color: var(--color-3);
+    font: 400 20px/26px var(--font-family__extra);
+
+    transition: var(--common-animation);
+    cursor: pointer;
+}
+
+.button--secondary.active,
+.button--secondary:hover {
+    color: var(--color-6);
+    background-color: var(--color-3);
+}
+
+/* 
+/* [ Common ]: Heading
+/* ================================== */
+h1 {
+    font: 700 45px/50px var(--font-family__base);
+}
+
+h2 {
+    font: 400 25px/35px var(--font-family__extra);
+}
+
+h3 {
+    font: 700 20px/20px var(--font-family__base);
+}
+
+/* 
+/* [ Common ]: Layout
+/* ================================== */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 400 16px/24px var(--font-family__base);
+    color: var(--color-4);
+}
+
+.box {
+    max-width: var(--layout-width);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        padding-right: 46px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .box {
+        padding-right: 44px;
+        padding-left: 42px;
+    }
+}

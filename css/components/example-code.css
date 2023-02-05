@@ -1,0 +1,93 @@
+/* 
+/* [ Example-code ] : Description
+/* ================================== */
+
+.example-code .description { 
+    margin-bottom: 5px;
+}
+
+/* 
+/* [ Example-code ] : Pre
+/* ================================== */
+
+code[class*=language-], pre[class*=language-] {
+    margin: 0;
+    font: 15px/20px monospace;
+    text-shadow: none;
+    z-index: 0;
+}
+
+pre.line-numbers {
+    display: flex;
+    flex-direction: row;
+    counter-reset: e;
+}
+
+pre[class*=language-] {
+    margin: 1.5em 0;
+    background: var(--code-color1);
+    overflow: auto;
+}
+
+.codebox__code pre {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.line-numbers .line-numbers-rows {
+    padding: 15px 12px;
+    width: 40px;
+
+    border: 0;
+    background: var(--code-color2);
+    user-select: none;
+    text-align: right;
+}
+
+.line-numbers-rows>span {
+    display: block;
+    pointer-events: none;
+    counter-increment: e;
+}
+
+.line-numbers-rows>span:before {
+    content: counter(e);
+
+    font: italic 14px var(--font-family__text);
+    text-align: right;
+    color: var(--color1);
+}
+
+pre[class*=language-]>code[class*=language-] {
+    padding: 15px;
+    color: var(--code-color3);
+}
+
+.token.keyword {
+    color: var(--code-color4);
+}
+
+.token.entity, .token.operator {
+    color: var(--code-color5);
+}
+
+.token.class-name, .token.maybe-class-name {
+    color: var(--code-color6);
+}
+
+.token.attr-name, .token.builtin, .token.char, .token.deleted, .token.selector, .token.string {
+    color: var(--code-color7);
+}
+
+.token.boolean, .token.constant, .token.inserted, .token.number, .token.property, .token.symbol, .token.tag, .token.unit {
+    color: var(--code-color8);
+}
+
+.token.comment, .token.prolog {
+    color: var(--code-color9);
+}
+
+.token.function, .token.function .token.maybe-class-name {
+    color: var(--code-color6);
+}

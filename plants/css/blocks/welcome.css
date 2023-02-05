@@ -1,0 +1,127 @@
+/* 
+/* [ Welcome ]: Layout
+/* ================================== */
+.welcome {
+    padding-top: 46px;
+    padding-bottom: 24px;
+    background-color: var(--color-10);
+}
+
+/* Tablet+ */
+@media screen and (min-width: 768px) {
+    .welcome {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .welcome .box {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .welcome {
+        padding-top: 0;
+        padding-bottom: 58px;
+    }
+
+    .welcome .box {
+        grid-gap: 10%;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+
+/* 
+/* [ Welcome ]: Image
+/* ================================== */
+.welcome__image {
+    display: none;
+}
+
+/* Tablet+ */
+@media screen and (min-width: 768px) {
+    .welcome__image {
+        display: inline-block;
+        max-width: 284px;
+        order: 2;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .welcome__image {
+        max-width: 452px;
+        padding-top: 43px;
+        order: 0;
+    }
+}
+
+/* 
+/* [ Welcome ]: Content
+/* ================================== */
+
+.welcome__title {
+    margin-bottom: 20px;
+    font: 700 25px/35px var(--font-family__base);
+}
+
+.welcome__title span {
+    color: var(--color-1);
+}
+
+.welcome__description {
+    max-width: 535px;
+    margin-bottom: 26px;
+    font: 16px/25px var(--font-family__base);
+}
+
+.welcome__content .button--primary {
+    padding: 5px 16px;
+    font: 10px/20px var(--font-family__base);
+}
+
+/* Tablet+ */
+@media screen and (min-width: 768px) {
+    .welcome__content {
+        max-width: 341px;  
+    }
+
+    .welcome__title {
+    margin-bottom: 31px;
+    font: 700 35px/50px var(--font-family__base);
+    }
+
+    .welcome__description {
+        padding-left: 7px;
+        margin-bottom: 33px;
+    }
+
+    .welcome__content .button--primary {
+        width: 158px;
+        height: 46px;
+        padding: 13px 26px 13px 25px;
+        font-size: 16px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .welcome__content {
+        max-width: none; 
+        padding-top: 80px;
+    }
+
+    .welcome__title {
+        margin-bottom: 47px;
+        font-size: 45px;
+    }
+
+    .welcome__description {
+        padding-left: 4px;
+        margin-bottom: 45px;
+        font: 20px/35px var(--font-family__base);
+        letter-spacing: -.1px;
+    }
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Plants Icons";
+    font-style: normal;
+    font-weight: 400;
+    src:  url("../font/plants__icon.woff") format("woff"),
+        url("../font/plants__icon.woff2") format("woff2");
+    font-display: swap;
+}

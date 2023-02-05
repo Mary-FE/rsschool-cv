@@ -1,0 +1,98 @@
+/* 
+/* [ Footer ]: Layout
+/* ================================== */
+.footer {
+    padding-top: 22px;
+    padding-bottom: 17px;
+
+    color: var(--color-5);
+    text-align: center;
+}
+
+.footer .box {
+    font: 400 20px/24px var(--font-family__base);
+}
+
+.footer__publication {
+    display: flex;
+    grid-gap: 22px;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+
+.footer a {
+    color: var(--color-5);
+    transition: var(--common-animation);
+}
+
+.footer a:hover {
+    color: var(--color-1);
+}
+
+.footer .rs-school {
+    display: block;
+    margin-bottom: 17px;
+}
+
+/* Tablet+ */
+@media screen and (min-width: 768px) {
+    .footer {
+        padding-top: 31px;
+    }
+
+    .footer .box {
+        position: relative;
+        left: -3px;
+    }
+
+    .footer__publication {
+        margin-bottom: 16px;
+    }
+
+    .footer .rs-school {
+        margin-bottom: 30px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+    
+    .footer .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__publication,
+    .footer .rs-school {
+        margin-bottom: 0;
+    }
+
+    .footer .rs-school { 
+        margin-left: 15px;
+    }
+}
+
+/* 
+/* [ Footer ]: Social icons
+/* ================================== */
+.footer__social ul {
+    display: flex;
+    justify-content: center;
+    grid-gap: 27px;
+    font-size: 27px;
+}
+
+.footer__social a::before {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+}
+
+.footer .icon:hover {
+    color: var(--color-1);
+}
