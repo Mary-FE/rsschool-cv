@@ -107,6 +107,7 @@
     max-width: 281px;
     border: 1px solid var(--color-7);
     border-radius: 20px;
+    transition: var(--common-animation);
 }
 
 .service__info.blur {
