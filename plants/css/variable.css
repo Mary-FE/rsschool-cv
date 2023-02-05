@@ -1,0 +1,37 @@
+:root {
+    --color-1: #499A18;
+    --color-2: #717171;
+    --color-3: #E06733;
+    --color-4: #636060;
+    --color-5: #000;
+    --color-6: #fff;
+    --color-7: #E3E1D5;
+    --color-8: #D9D9D9;
+    --color-9: #D6E7D2;
+    --color-10: #EDF2EC; /* Background-color in the sections  */
+    --color-11: rgba(0, 0, 0, 0.25);
+    --color-12: #AEA1A1;
+    --color-13: #DCE9D9;
+    --color-14: #C1E698;
+    --color-15: #8BA07E;
+
+    /* Layout */
+    --layout-width: 1310px;
+
+    /* Fonts */
+    --font-family__base: 'Inter', sans-serif; 
+    --font-family__extra: 'Inika', serif;
+    --font-family__icon: 'Plants Icons';
+
+    /* Icons */
+    --icon-menu: '\e905';
+    --icon-arrow: '\e900';
+    --icon-instagram: '\e901';
+    --icon-facebook: '\e902';
+    --icon-twitter: '\e903';
+    --icon-pinterest: '\e904';
+
+    /* ================================= */
+    --common-animation: all ease .3s;
+    /* ================================= */
+}
